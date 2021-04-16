@@ -32,5 +32,4 @@ public class NewGame: Identifiable {
             print("Game codes dont match")
         }
     }
-    
 }
