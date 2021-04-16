@@ -1,0 +1,6 @@
+framework module Pods_Fugitive__macOS_ {
+  umbrella header "Pods-Fugitive (macOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

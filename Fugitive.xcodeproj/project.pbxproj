@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005712BF51146BE731AED372 /* Pods_Fugitive__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4D7B57E9BA2AC811308D23 /* Pods_Fugitive__macOS_.framework */; };
 		3F28488D2628E2C4006E060D /* FugitiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F28487A2628E2C2006E060D /* FugitiveApp.swift */; };
 		3F28488E2628E2C4006E060D /* FugitiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F28487A2628E2C2006E060D /* FugitiveApp.swift */; };
 		3F28488F2628E2C4006E060D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F28487B2628E2C2006E060D /* ContentView.swift */; };
 		3F2848902628E2C4006E060D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F28487B2628E2C2006E060D /* ContentView.swift */; };
 		3F2848912628E2C4006E060D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F28487C2628E2C4006E060D /* Assets.xcassets */; };
 		3F2848922628E2C4006E060D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F28487C2628E2C4006E060D /* Assets.xcassets */; };
+		3F285265262A0335004F22DB /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F285264262A0335004F22DB /* SignInView.swift */; };
+		3F28526B262A049F004F22DB /* LoginTextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F28526A262A049F004F22DB /* LoginTextViews.swift */; };
+		3F28526F262A3482004F22DB /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F28526E262A3482004F22DB /* Helper.swift */; };
+		3F285273262A3688004F22DB /* NewGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F285272262A3688004F22DB /* NewGame.swift */; };
+		3FB62EF62628EDFB00F09DE3 /* MapVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB62EF52628EDFB00F09DE3 /* MapVIew.swift */; };
+		3FB62EFC2628EE4100F09DE3 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB62EFB2628EE4100F09DE3 /* LocationManager.swift */; };
+		3FB62F002628EE7200F09DE3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB62EFF2628EE7200F09DE3 /* MainView.swift */; };
+		3FB62F042628F0F000F09DE3 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB62F032628F0F000F09DE3 /* DataModels.swift */; };
+		3FB62F082628F4D700F09DE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FB62F072628F4D700F09DE3 /* GoogleService-Info.plist */; };
+		3FB62F27262A014400F09DE3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB62F26262A014400F09DE3 /* LoginView.swift */; };
+		3FB62F2B262A014F00F09DE3 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB62F2A262A014F00F09DE3 /* SignUpView.swift */; };
+		CB6BF9D27F903193B32AC33B /* Pods_Fugitive__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C082ED9384E1F91DB06D195 /* Pods_Fugitive__iOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AA77A40B73D1080AC6C4C3F /* Pods-Fugitive (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fugitive (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Fugitive (macOS)/Pods-Fugitive (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		3C082ED9384E1F91DB06D195 /* Pods_Fugitive__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fugitive__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F28487A2628E2C2006E060D /* FugitiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FugitiveApp.swift; sourceTree = "<group>"; };
 		3F28487B2628E2C2006E060D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F28487C2628E2C4006E060D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +39,21 @@
 		3F2848892628E2C4006E060D /* Fugitive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fugitive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F28488B2628E2C4006E060D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F28488C2628E2C4006E060D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3F285264262A0335004F22DB /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		3F28526A262A049F004F22DB /* LoginTextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextViews.swift; sourceTree = "<group>"; };
+		3F28526E262A3482004F22DB /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		3F285272262A3688004F22DB /* NewGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGame.swift; sourceTree = "<group>"; };
+		3FB62EF52628EDFB00F09DE3 /* MapVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVIew.swift; sourceTree = "<group>"; };
+		3FB62EFB2628EE4100F09DE3 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		3FB62EFF2628EE7200F09DE3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3FB62F032628F0F000F09DE3 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		3FB62F072628F4D700F09DE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FB62F26262A014400F09DE3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3FB62F2A262A014F00F09DE3 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		4FAEB618FC10829271C7D822 /* Pods-Fugitive (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fugitive (macOS).release.xcconfig"; path = "Target Support Files/Pods-Fugitive (macOS)/Pods-Fugitive (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		6877F6E9B139B17E3802A9B6 /* Pods-Fugitive (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fugitive (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Fugitive (iOS)/Pods-Fugitive (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		6A4D7B57E9BA2AC811308D23 /* Pods_Fugitive__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fugitive__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0904C1F0051C641F036076 /* Pods-Fugitive (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fugitive (iOS).release.xcconfig"; path = "Target Support Files/Pods-Fugitive (iOS)/Pods-Fugitive (iOS).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6BF9D27F903193B32AC33B /* Pods_Fugitive__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005712BF51146BE731AED372 /* Pods_Fugitive__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +83,8 @@
 				3F2848832628E2C4006E060D /* iOS */,
 				3F28488A2628E2C4006E060D /* macOS */,
 				3F2848822628E2C4006E060D /* Products */,
+				8782925CF6367975843E5DE2 /* Pods */,
+				BD1D9B4B229002FA943391BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,7 +93,11 @@
 			children = (
 				3F28487A2628E2C2006E060D /* FugitiveApp.swift */,
 				3F28487B2628E2C2006E060D /* ContentView.swift */,
+				3F28489D2628E3C5006E060D /* Model */,
+				3F28489E2628E3C9006E060D /* View */,
+				3F28489F2628E3D1006E060D /* ViewModel */,
 				3F28487C2628E2C4006E060D /* Assets.xcassets */,
+				3FB62F072628F4D700F09DE3 /* GoogleService-Info.plist */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -90,6 +128,97 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		3F28489D2628E3C5006E060D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FB62F032628F0F000F09DE3 /* DataModels.swift */,
+				3F28526E262A3482004F22DB /* Helper.swift */,
+				3F285272262A3688004F22DB /* NewGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F28489E2628E3C9006E060D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FB62F2E262A015A00F09DE3 /* LoginView */,
+				3FB62EF42628EDEA00F09DE3 /* MapView */,
+				3F2848A02628E3E2006E060D /* MainView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F28489F2628E3D1006E060D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3F2848A02628E3E2006E060D /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				3FB62EFF2628EE7200F09DE3 /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		3F285263262A0317004F22DB /* SignInView */ = {
+			isa = PBXGroup;
+			children = (
+				3F285264262A0335004F22DB /* SignInView.swift */,
+			);
+			path = SignInView;
+			sourceTree = "<group>";
+		};
+		3FB62EF42628EDEA00F09DE3 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				3FB62EF52628EDFB00F09DE3 /* MapVIew.swift */,
+				3FB62EFB2628EE4100F09DE3 /* LocationManager.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		3FB62F222628F80800F09DE3 /* SignupView */ = {
+			isa = PBXGroup;
+			children = (
+				3FB62F2A262A014F00F09DE3 /* SignUpView.swift */,
+			);
+			path = SignupView;
+			sourceTree = "<group>";
+		};
+		3FB62F2E262A015A00F09DE3 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				3FB62F26262A014400F09DE3 /* LoginView.swift */,
+				3F285263262A0317004F22DB /* SignInView */,
+				3FB62F222628F80800F09DE3 /* SignupView */,
+				3F28526A262A049F004F22DB /* LoginTextViews.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		8782925CF6367975843E5DE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6877F6E9B139B17E3802A9B6 /* Pods-Fugitive (iOS).debug.xcconfig */,
+				DC0904C1F0051C641F036076 /* Pods-Fugitive (iOS).release.xcconfig */,
+				2AA77A40B73D1080AC6C4C3F /* Pods-Fugitive (macOS).debug.xcconfig */,
+				4FAEB618FC10829271C7D822 /* Pods-Fugitive (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD1D9B4B229002FA943391BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C082ED9384E1F91DB06D195 /* Pods_Fugitive__iOS_.framework */,
+				6A4D7B57E9BA2AC811308D23 /* Pods_Fugitive__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F2848952628E2C4006E060D /* Build configuration list for PBXNativeTarget "Fugitive (iOS)" */;
 			buildPhases = (
+				2BC6A04988DAF9B16660E9D5 /* [CP] Check Pods Manifest.lock */,
 				3F28487D2628E2C4006E060D /* Sources */,
 				3F28487E2628E2C4006E060D /* Frameworks */,
 				3F28487F2628E2C4006E060D /* Resources */,
+				CFC3709EF243B2293C96820F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -114,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F2848982628E2C4006E060D /* Build configuration list for PBXNativeTarget "Fugitive (macOS)" */;
 			buildPhases = (
+				656539DDE302A626B20D4BA3 /* [CP] Check Pods Manifest.lock */,
 				3F2848852628E2C4006E060D /* Sources */,
 				3F2848862628E2C4006E060D /* Frameworks */,
 				3F2848872628E2C4006E060D /* Resources */,
@@ -169,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F2848912628E2C4006E060D /* Assets.xcassets in Resources */,
+				3FB62F082628F4D700F09DE3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,12 +315,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BC6A04988DAF9B16660E9D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fugitive (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656539DDE302A626B20D4BA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fugitive (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFC3709EF243B2293C96820F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fugitive (iOS)/Pods-Fugitive (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fugitive (iOS)/Pods-Fugitive (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fugitive (iOS)/Pods-Fugitive (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F28487D2628E2C4006E060D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F285273262A3688004F22DB /* NewGame.swift in Sources */,
+				3F28526F262A3482004F22DB /* Helper.swift in Sources */,
+				3F285265262A0335004F22DB /* SignInView.swift in Sources */,
+				3F28526B262A049F004F22DB /* LoginTextViews.swift in Sources */,
+				3FB62EFC2628EE4100F09DE3 /* LocationManager.swift in Sources */,
+				3FB62F27262A014400F09DE3 /* LoginView.swift in Sources */,
 				3F28488F2628E2C4006E060D /* ContentView.swift in Sources */,
+				3FB62EF62628EDFB00F09DE3 /* MapVIew.swift in Sources */,
+				3FB62F2B262A014F00F09DE3 /* SignUpView.swift in Sources */,
+				3FB62F042628F0F000F09DE3 /* DataModels.swift in Sources */,
+				3FB62F002628EE7200F09DE3 /* MainView.swift in Sources */,
 				3F28488D2628E2C4006E060D /* FugitiveApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +524,7 @@
 		};
 		3F2848962628E2C4006E060D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6877F6E9B139B17E3802A9B6 /* Pods-Fugitive (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -339,6 +547,7 @@
 		};
 		3F2848972628E2C4006E060D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0904C1F0051C641F036076 /* Pods-Fugitive (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -362,6 +571,7 @@
 		};
 		3F2848992628E2C4006E060D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA77A40B73D1080AC6C4C3F /* Pods-Fugitive (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -386,6 +596,7 @@
 		};
 		3F28489A2628E2C4006E060D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FAEB618FC10829271C7D822 /* Pods-Fugitive (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
